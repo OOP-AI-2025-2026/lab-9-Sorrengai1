@@ -216,6 +216,7 @@ public class TaskTest {
             Task task = new Task();
             task.switchPairs(expected);
 
+
             assertArrayEquals(actual.toArray(new String[0]), expected.toArray(new String[0]));
         }
 
